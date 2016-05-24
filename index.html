@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Форми та скрипти</title>
+    </head>
+    <body>
+         <fieldset><br>
+        <p>Форми</p>
+        <form action="mailto:kvdrja@gmail.com" enctype="text/plain">
+             <p><input type="submit" value="Написати лист"></p>
+        </form> 
+        <br>
+        <form action="URL" method="post">
+            <p><input type="text" name="str"></p>
+            <p><input type="submit" value="Відправити"></p>
+         </form>
+        <form method="post" action="URL">
+  <h1>Виберіть одну з тварин.<br>Та введіть будь ласка ваше ім"я</h1>
+   <p><select size="3" name="Animal">
+    <option disabled>Виберіть із списку одну з тварин</option>
+    <option value="t1" selected>Заєць</option>
+    <option value="t2">Крокодил</option>
+    <option value="t3">Зебрак</option>
+    <option value="t4">Вовк</option>
+   </select></p>
+   <p><input type="submit" value="Відіслати відповідь"></p>
+        </form>
+        <hr>
+        <form method="post" action="URL">
+                <label for="e-mail">E-mail</label>
+                <input id="e-mail" type="email" required="" placeholder="Введіть будь ласка корректний email"> 
+                <input type="submit" value="Підтвердити">
+        </form>
+        <hr>
+        <form method="post" action="URL">
+            <p>Введіть будь ласка Ваш номер телефону</p>
+            <p>Ім*я: <input type="text"/></p>
+            <p>Телефон в форматi 38-xxx-xxx-xx-xx:  <input type="tel" name="tel" pattern="38-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"></p>
+            <p><input type="submit" value="Відіслати"><br></p>
+        </form>
+        </fieldset>
+</body>
+</html>
